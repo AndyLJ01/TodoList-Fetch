@@ -1,11 +1,30 @@
-/* 
+body{
+background-color: beige;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.titulo{
+  margin-top: 50px;
+  text-align: center;
+}
 
-*/
+ul li{
+    width:70%;
+    border: 1px solid black;
+    padding: 5px;
+    list-style: none;
+    margin-left: 200px;
+}
+
+input{
+    border:none;
+    width:100%;
+    background-color: beige;
+}
+
+.numero{
+    margin-left: 220px;
+}
+i{
+   margin-left: 500px;
+}
+
